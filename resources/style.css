@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+/* Header bar */
+
+header {
+  color: seashell;
+  font-size: 22px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  display: inline-flex;;
+  justify-content: space-between;
+}
+
+#logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  display: inline-flex;
+}
+
+header nav p {
+  margin: 15px;
+  text-decoration: underline;
+}
