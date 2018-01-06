@@ -122,7 +122,13 @@ header nav p {
   width: 300px;
 }
 
+/* Locations */
 
+.locations {
+  height: 500px;
+  width: 100%;
+  background-image: url("file://");
+}
 
 
 
