@@ -39,7 +39,9 @@ header nav p {
 /*Overall main content containers*/
 
 .main {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 /* Body Section 1, Our Mission*/
@@ -126,15 +128,49 @@ header nav p {
 
 .locations {
   height: 500px;
-  width: 100%;
-  background-image: url("file://");
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: round;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  flex-direction: column;
+  border: green solid 2px;
+  justify-content: center;
 }
 
+.locations #title {
+  font-size: 30px;
+}
 
+.item-container {
+  width: 1020px;
+  height: 300px;
+  display: flex;
+  margin: 5px auto;
+  justify-content: space-between;
+  border: red solid 2px;
+}
 
+.box {
+  height: 300px;
+  width: 300px;
+  border: green solid 1px;
+  background-color: black;
+}
 
+/*end note*/
 
+.endnote {
+  height: 200px;
+  align-self: center;
+  text-align: center;
+}
 
+/*copyright*/
+
+#copyright {
+}
 
 
 
