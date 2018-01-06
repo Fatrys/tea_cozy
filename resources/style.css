@@ -11,21 +11,24 @@ body {
 header {
   position: fixed;
   border-bottom: 1px solid seashell;
-  height: 69px;
+  height: 79px;
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
   background-color: black;
+  margin-top: -10px;
 }
 
 #logo img {
   height: 50px;
   margin-left: 10px;
+  margin-top: 14.5px;
 }
 
 header nav {
   display: inline-flex;
   margin-right: 5px;
+  margin-top: 8px;
 }
 
 header nav p {
@@ -36,7 +39,7 @@ header nav p {
 /*Overall main content containers*/
 
 .main {
-
+  justify-content: center;
 }
 
 /* Body Section 1, Our Mission*/
@@ -65,15 +68,59 @@ header nav p {
   margin: 10px 0px;;
 }
 
+/*body section 2, Tea of the month */
+
+.tea-month {
+  display: flex;
+  justify-content: center;;
+  flex-direction: column;
+}
+
+.tea-month .section-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.tea-month .section-text h2,
+.tea-month .section-text h5 {
+  margin: 20px auto;
+}
 
 
 
+.images-with-captions {
+  width: 1000px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
 
+.row {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+}
 
+.item {
+  height: 240px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.item p {
+  margin: 10px auto;
+}
 
-
-
+#image {
+  height: 200px;
+  width: 300px;
+}
 
 
 
