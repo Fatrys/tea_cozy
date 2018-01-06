@@ -1,18 +1,21 @@
 body {
   background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
 }
 
 /* Header bar */
 
 header {
-  color: seashell;
-  font-size: 22px;
   position: fixed;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
-  display: inline-flex;;
+  display: inline-flex;
   justify-content: space-between;
+  background-color: black;
 }
 
 #logo img {
@@ -22,9 +25,82 @@ header {
 
 header nav {
   display: inline-flex;
+  margin-right: 5px;
 }
 
 header nav p {
   margin: 15px;
   text-decoration: underline;
 }
+
+/*Overall main content containers*/
+
+.main {
+
+}
+
+/* Body Section 1, Our Mission*/
+
+.our-mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  vertical-align: middle;
+}
+
+.our-mission #text-bar {
+  vertical-align: middle;
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  margin: auto 0px;
+  width: 100%;
+}
+
+.our-mission #text-bar h2,
+.our-mission #text-bar h4 {
+  margin: 10px 0px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fqwe
