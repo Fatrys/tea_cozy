@@ -67,14 +67,14 @@ header nav p {
 
 .our-mission #text-bar h2,
 .our-mission #text-bar h4 {
-  margin: 10px 0px;;
+  margin: 10px 0px;
 }
 
 /*body section 2, Tea of the month */
 
 .tea-month {
   display: flex;
-  justify-content: center;;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -106,8 +106,8 @@ header nav p {
 
 .row {
   display: inline-flex;
-  justify-content: space-around;
-  margin: 40px 0px;
+  justify-content: center;
+  margin: 10px 0px;
 }
 
 .item {
@@ -116,6 +116,7 @@ header nav p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto 20px;
 }
 
 .item p {
@@ -138,7 +139,6 @@ header nav p {
   align-self: center;
   text-align: center;
   flex-direction: column;
-  border: green solid 2px;
   justify-content: center;
 }
 
@@ -152,13 +152,11 @@ header nav p {
   display: flex;
   margin: 5px auto;
   justify-content: space-between;
-  border: red solid 2px;
 }
 
 .box {
   height: 300px;
   width: 300px;
-  border: green solid 1px;
   background-color: black;
 }
 
@@ -171,28 +169,3 @@ header nav p {
 }
 
 /*copyright*/
-
-#copyright {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fqwe
